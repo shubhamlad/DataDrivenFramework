@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AddCustomerTest"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.010">
+  <properties />
+  
+  
+            <testcase name="addCustomerTest" time="0.423" classname="com.SeleniumLearn.testCases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="0.514" classname="com.SeleniumLearn.testCases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="0.404" classname="com.SeleniumLearn.testCases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="0.669" classname="com.SeleniumLearn.testCases.AddCustomerTest" />
+      
+</testsuite>

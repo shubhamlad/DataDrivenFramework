@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+			<listener
+			class-name="com.SeleniumLearn.listener.CustomListener" />
+	</listeners>
+	<test thread-count="5" name="BankManagerLoginTest">
+		<classes>
+			<class name="com.SeleniumLearn.testCases.BankManagerLoginTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="AddCustomerTest">
+		<classes>
+			<class name="com.SeleniumLearn.testCases.AddCustomerTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite>
+
+<!-- Suite -->
