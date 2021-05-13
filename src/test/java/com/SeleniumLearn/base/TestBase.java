@@ -43,7 +43,7 @@ public class TestBase {
 		OR.load(fis);
 		
 		if(System.getenv("browser").equals("chrome"))
-//		if(config.getProperty("browser").equals("chrome"))
+//		if(config.getProperty("browser").equals("chrome")) adddtest
 		{
 			System.setProperty("webdriver.chrome.driver",
 					System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
